@@ -508,3 +508,7 @@ LEFT JOIN reviews r ON o.order_id = r.order_id;
 
 SELECT COUNT(*) FROM export_order_details;
 SELECT * FROM export_order_details LIMIT 10;
+
+SELECT *
+FROM export_order_details;
+
